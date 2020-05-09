@@ -4,11 +4,11 @@ Totally unrelated video in trend `#हमारा_POK_वापस_करो` t
 
 ![Twitter trend having unrelated post](./media/proof-1.png)
 
-It's really simple to reverse engineer twitter's payload for tweets as it's just clean json object containing tweet IDs and then ultimately data that renders your tweet.
+It's simple to reverse engineer/inspect twitter's payload for tweets as it's just clean JSON object containing tweet IDs and then data that can render your tweet.
 
 ![Sample response showing twitter payload](./media/devtools.png)
 
-Above is the trend response of that tweet in a photo proof
+Above is the trend response of that tweet in a photo proof.
 
 Since I'm viewing trend that is mostly related with hashtag this [tweet](https://twitter.com/girlpower0987/status/1258726584497946625) should atleast have partial text or matching hashtag but below was the tweet payload
 
@@ -181,7 +181,7 @@ Since I'm viewing trend that is mostly related with hashtag this [tweet](https:/
 
 lookout for the response with key `hashtags` it's blank but if you check other tweets on full json response you will be able to find encoded tag `\u0939\u092e\u093e\u0930\u093e_POK_\u0935\u093e\u092a\u0938_\u0915\u0930\u094b`
 
-I went through every post on that payload looking for similarity of having no hashtags but found none
+I went through every post on that payload looking for the similarity of having no hashtags but found none
 
 by the time I wrote this report that tweet has gone wild and had ~8K+ likes from ~2K+ within ~1hour and ironically post is one day long
 
@@ -189,4 +189,4 @@ by the time I wrote this report that tweet has gone wild and had ~8K+ likes from
 
 - Why this tweet is the only one has no hashtag relating to trend
 - This tweet does not say promoted anywhere otherwise it's acceptable
-- Even if tweet has hashtag in comment section is it okay for twitter to just show main tweet without relating comment (I guess twitter doesn't do this AFAIK)
+- Even if a tweet has a hashtag in the comment section is it okay for twitter to just show the main tweet without relating comment (I guess twitter doesn't do this AFAIK)
