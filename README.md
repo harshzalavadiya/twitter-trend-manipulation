@@ -16,7 +16,7 @@ I don't consider myself as expert/hacker of anything that cool kids like to say 
 
 ### Investigations
 
-- [Totally unrelated video in trend](./media/README.md)
+- [Totally unrelated video in trend](https://github.com/harshzalavadiya/twitter-trend-manipulation/tree/master/01_payload_check_web)
 - [Some more Proofs take on Mobile devices](https://github.com/harshzalavadiya/twitter-trend-manipulation/tree/master/00_mobile-proofs)
 
 ### How this started
